@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pokémon Chart</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+
+
+    <main>
+        <div class="main__tiles">
+            <div class="main__tiles__title">
+                <p>Pokémon Combination Type:</p>
+            </div>
+
+            <div class="main__tiles__types">
+                <button class="type nor" typeBtn value="nor">Normal</button>
+                <button class="type fir" typeBtn value="fir">Fire</button>
+                <button class="type wat" typeBtn value="wat">Water</button>
+                <button class="type ele" typeBtn value="ele">Electric</button>
+                <button class="type gra" typeBtn value="gra">Grass</button>
+                <button class="type ice" typeBtn value="ice">Ice</button>
+
+                <button class="type fig" typeBtn value="fig">Fighting</button>
+                <button class="type poi" typeBtn value="poi">Poison</button>
+                <button class="type gro" typeBtn value="gro">Ground</button>
+                <button class="type fly" typeBtn value="fly">Flying</button>
+                <button class="type psy" typeBtn value="psy">Psychic</button>
+                <button class="type bug" typeBtn value="bug">Bug</button>
+
+                <button class="type roc" typeBtn value="roc">Rock</button>
+                <button class="type gho" typeBtn value="gho">Ghost</button>
+                <button class="type dra" typeBtn value="dra">Dragon</button>
+                <button class="type dar" typeBtn value="dar">Dark</button>
+                <button class="type ste" typeBtn value="ste">Steel</button>
+                <button class="type fai" typeBtn value="fai">Fairy</button>
+            </div>
+        </div>
+
+        <div id="result" class="main__result">
+            <div class="main__result__title">
+                <p>Effectiveness:</p>
+            </div>
+
+            <div class="main__result__effectiveness">
+                <div class="effectiveness__effect">
+                    <p class="effectiveness__title">No effect:</p>
+                    <div id="noEffect"></div>
+                </div>
+
+                <div class="effectiveness__effect">
+                    <p class="effectiveness__title">Not very effective:</p>
+                    <div id="notVeryEffect"></div>
+                </div>
+
+                <div class="effectiveness__effect">
+                    <p class="effectiveness__title">Normal:</p>
+                    <div id="normalEffect"></div>
+                </div>
+
+                <div class="effectiveness__effect">
+                    <p class="effectiveness__title">Super-effective:</p>
+                    <div id="superEffect"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="bg">
+        <img class="bg--image" src="./assets/img/bg.png">
+    </div>
+
+    <footer class="footer">
+        <p>Desenvolvido por:  <a href="https://www.linkedin.com/in/lp-ramos/">LP-Ramos</a></p>
+        <p>Fonte: <a href="https://pokemondb.net/">Pokémon Database</a></p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
